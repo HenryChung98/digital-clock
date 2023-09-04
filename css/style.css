@@ -1,0 +1,50 @@
+html{
+  background-color: rgb(242, 204, 14);
+  text-align: center;
+
+}
+
+body{
+  position: relative;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#monthAndYear, #date, #time, #ampm, div p{
+  text-transform: uppercase;
+}
+
+#monthAndYear, #date{
+  font-size: 50px;
+  margin: 10px;
+  position: relative;
+  top: 40px;
+}
+
+.time{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+
+
+div p{
+  font-size: 20px;
+  position: relative;
+  bottom: 80px;
+  height: 30px;
+}
+button{
+  width: 70px;
+  background-color: rgb(95, 95, 211);
+  border: 1px white solid;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  margin: auto;
+  font-size: 20px;
+}
